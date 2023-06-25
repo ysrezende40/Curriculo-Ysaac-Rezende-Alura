@@ -1,0 +1,584 @@
+:root{
+    --cor-de-fundo:#F5F5F5;
+    --cabecalho: #E1CE93;
+
+}
+html {
+  scroll-behavior: smooth; /*deixa a trasinção para as sections mais suaves*/
+}
+body{
+    background-color: var(--cor-de-fundo);
+}
+h1{
+  font-size: 26px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-weight: bold;
+}
+/*CABEÇHALHO*/
+header{
+    background-color: var(--cabecalho);
+    width: auto;
+    height: 88px;
+
+}
+.cabecalho-principal {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+  }
+.cabecalhoPrincipal-nav-link{
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--cor-do-texto);
+    font-size: large;
+    margin-right: 10px;
+    margin-top: 3%;
+   
+}
+/*CABEÇHALHO*/
+main{
+padding: 30px  50px 0px 50px;
+}
+/*HOME*/
+#Home{
+
+    width: 100%;
+    
+}
+#Home h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 61px;
+
+}
+.minhafoto{
+    width: 300px;
+    height: 300px;
+}
+.home-conteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+
+}
+.jfk{
+  margin-left: -2px;
+}
+
+ #cv-container{
+   margin-top: 20px;
+   
+  
+} 
+
+#btn-cv{
+    background-color: #6da8d4;
+    display: block;
+    width: 250px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+
+   
+  }
+  
+  #btn-cv:hover{
+    transition: 0.5s ease-in-out;
+    background: #4F95DA;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    transform: translateY(-2px);
+    }
+    /*HOME*/
+
+   /*LINK REDES SOCIAIS*/ 
+  .links{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 10%;
+ 
+  }
+  .link-social svg{
+    width: 40px;
+    height: 40px;
+
+  }
+  /*LINK REDES SOCIAIS*/
+
+  /*SOBRE MIM*/ 
+  #sobremim{
+    margin-top: 90px;
+    padding-bottom: 90px;
+  }
+  .textsobremim{
+    margin: 22px auto;
+    width: 50%;
+    word-wrap: break-word;
+
+  }
+ /*SOBRE MIM*/ 
+
+  /*BOX SKILLS*/
+  #Skills{
+    margin-top: 90px;
+    padding-bottom: 90px;
+
+
+  }
+  .Skills-conteiner{
+    display: flex;
+    justify-content: space-evenly; /*mesmo quantidade de espaço dentro e fora*/
+    width: 100%;
+    
+
+  }
+  .Skills-conteiner svg{
+    width: 50px;
+    height: 50px;
+    margin: 15px 25px;
+    
+    
+  }
+  .boxjs{
+    align-items: center;
+    width: 100px;
+    height: 110px;
+    background-color: #4F95DA;
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+  }
+  .boxjs p{
+    padding: 0 3px 5px 5px; /*em cima, direita, para baixo, esquerda*/
+  }
+  .boxphp{
+    align-items: center;
+    width: 100px;
+    height: 110px;
+    background-color: #4F95DA;
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+  }
+  .boxphp p{
+    padding: 0 15px 5px 35px; /*em cima, direita, para baixo, esquerda*/
+  }
+  .boxhtml{
+    align-items: center;
+    width: 100px;
+    height: 110px;
+    background-color: #4F95DA;
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+  }
+  .boxhtml p{
+    padding: 0 15px 5px 35px; /*em cima, direita, para baixo, esquerda*/
+  }
+  .boxcss{
+    align-items: center;
+    width: 100px;
+    height: 110px;
+    background-color: #4F95DA;
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+  }
+  .boxcss p{
+    padding: 0 15px 5px 35px; /*em cima, direita, para baixo, esquerda*/
+  }
+  .boxSQL{
+    align-items: center;
+    width: 100px;
+    height: 110px;
+    background-color: #4F95DA;
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+  }
+  .boxSQL p{
+    padding: 15px 15px 5px 35px; /*em cima, direita, para baixo, esquerda*/
+   
+  }
+  .boxSQL img{
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 5px 35px ;
+  }
+  .boxgit{
+    align-items: center;
+    width: 100px;
+    height: 110px;
+    background-color: #4F95DA;
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+  }
+  .boxgit p{
+    padding: 0 15px 5px 35px; /*em cima, direita, para baixo, esquerda*/
+  }
+  /*BOX SKILLS*/
+ 
+  /*certificados*/
+  #Certificados{
+    margin-top: 90px;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+
+  }
+  .certificados-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+   
+  
+   
+  }
+  .certificgit{
+    margin-top: 30px;
+    width: 140px;
+    height: 130px;
+    background-color: #4F95DA;
+  }
+  .certificgit img{
+    width: 100px;
+    height: 100px;
+    margin: 0 35px 10px 25px;
+  
+  }
+  .certificgit p{
+    padding: 0px 15px 0px 55px;
+  }
+
+
+  .certificJS{
+    margin-top: 30px;
+    width: 140px;
+    height: 130px;
+    background-color: #4F95DA;
+  }
+  .certificJS img{
+    width: 100px;
+    height: 100px;
+    margin: 0 35px 10px 25px;
+  
+  }
+  .certificJS p{
+    padding: 0px 15px 0px 27px;
+  }
+  .certificCSS{
+    margin-top: 30px;
+    width: 140px;
+    height: 130px;
+    background-color: #4F95DA;
+  }
+  .certificCSS img{
+    width: 100px;
+    height: 100px;
+    margin: 0 35px 10px 25px;
+  
+  }
+  .certificCSS p{
+    padding: 0px 5px 0px 50px;
+  }
+  
+  .certificHTML{
+    margin-top: 30px;
+    width: 140px;
+    height: 130px;
+    background-color: #4F95DA;
+  }
+  .certificHTML img{
+    width: 100px;
+    height: 100px;
+    margin: 0 35px 10px 25px;
+  
+  }
+  .certificHTML p{
+    padding: 0px 5px 0px 50px;
+  }
+  .certificIBM{
+    margin-top: 30px;
+    width: 140px;
+    height: 130px;
+    background-color: #4F95DA;
+  }
+  .certificIBM img{
+    width: 100px;
+    height: 100px;
+    margin: 0 35px 0px 25px;
+  
+  }
+  .certificIBM p{
+    padding: 0px 5px 0px 40px;
+    word-wrap: break-word;
+    font-size: small;
+    
+  }
+  /*Formação*/
+  .Formação{
+    margin-top: 90px;
+    padding-bottom: 90px;
+
+  }
+  .Formação-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Ensino-medio{
+    margin-top: 3px;
+    margin-bottom: 30px;
+    
+  }
+  .Ensino-tecnico{
+    margin-top: 3px;
+    margin-bottom: 30px;
+   }
+   .Formação p{
+    text-align: center;
+    justify-content: space-around;
+   }
+  /*Formação*/
+
+  /* Personalizando o fomrs */
+
+   #Form{
+    background-color: #A1C2F1;
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    padding-bottom: 90px;
+
+   }
+   #Form h1, h2{
+    margin-left: 30%;
+   }
+
+   .Form-Flex-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   }
+   form {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    width: 345px;
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
+  }
+  input[type="text"]
+ {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #5A96E3;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    width: 95px;
+    height: 50px;
+    transition: all 0.2s ease-in-out; /* Adiciona transição suave para a animação */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0A6EBD;
+    width: 100px;
+    height: 65px;
+    transform: translateY(-2px); /* Eleva o botão ao passar o cursor sobre ele */ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-2px);
+   
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  textarea{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #0A6EBD;
+  
+  }
+  /* Personalizando o fomrs */
+  /* hovers das skills, certificados e links */
+
+  .link-social svg:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #0000FF;
+  border-radius: 30%; 
+
+  }
+  .boxjs:hover{
+    transition: transform 0.3s; /*deixa o efeito suave*/
+    background-color: #0A6EBD;
+
+  }
+  .boxphp:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .boxhtml:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .boxcss:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .boxSQL:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .boxgit:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  /* certificados hovers */
+  .certificgit:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .certificJS:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .certificCSS:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .certificHTML:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  .certificIBM:hover{
+    transition: transform 0.3s;
+    background-color: #0A6EBD;
+
+  }
+  /* hovers das skills, certificados e links */
+/* footer */
+footer {
+  background-color: #007bff; /* Fundo azul */
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-top: 30px;
+}
+
+.footer-text {
+  font-family: 'Arial', sans-serif; /* Exemplo de fonte bonita */
+  color: #050505; /* Texto branco */
+  font-size: 18px;
+  text-align: center;
+}
+
+  
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+/*mobile*/
+@media (max-width: 700px) {
+    header{
+        height: auto;
+
+
+    }
+    .cabecalho-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+        
+    }
+    .cabecalhoPrincipal-nav-link{
+        font-size: 50px;
+    
+        
+    }
+    .home-conteiner{
+        flex-direction: column-reverse;
+    }
+    .Skills-conteiner{
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+   
+    }
+    .certificados-conteiner{
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .Formação-conteiner{
+      flex-direction: column;
+      justify-content: space-evenly;
+
+
+    }
+    .Form-Flex-conteiner{
+      flex-direction: column;
+      align-items: center;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      margin-top: 30px;
+      width: 100px;
+      font-family: Arial, sans-serif;
+      border-radius: 30px;
+    }
+    textarea{
+      width: 100px;
+      height: 100px;
+      border: 1px solid #0A6EBD;
+    
+    }
+   
+
+    
+    
+}
+
+   
